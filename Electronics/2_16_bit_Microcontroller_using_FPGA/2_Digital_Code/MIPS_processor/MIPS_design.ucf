@@ -1,0 +1,78 @@
+
+
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "input_port[15]" IOSTANDARD = LVCMOS33;
+NET "input_port[14]" IOSTANDARD = LVCMOS33;
+NET "input_port[13]" IOSTANDARD = LVCMOS33;
+NET "input_port[12]" IOSTANDARD = LVCMOS33;
+NET "input_port[11]" IOSTANDARD = LVCMOS33;
+NET "input_port[10]" IOSTANDARD = LVCMOS33;
+NET "input_port[9]" IOSTANDARD = LVCMOS33;
+NET "input_port[8]" IOSTANDARD = LVCMOS33;
+NET "input_port[7]" IOSTANDARD = LVCMOS33;
+NET "input_port[6]" IOSTANDARD = LVCMOS33;
+NET "input_port[5]" IOSTANDARD = LVCMOS33;
+NET "input_port[4]" IOSTANDARD = LVCMOS33;
+NET "input_port[3]" IOSTANDARD = LVCMOS33;
+NET "input_port[2]" IOSTANDARD = LVCMOS33;
+NET "input_port[1]" IOSTANDARD = LVCMOS33;
+NET "input_port[0]" IOSTANDARD = LVCMOS33;
+NET "output_port[15]" IOSTANDARD = LVCMOS33;
+NET "output_port[14]" IOSTANDARD = LVCMOS33;
+NET "output_port[13]" IOSTANDARD = LVCMOS33;
+NET "output_port[12]" IOSTANDARD = LVCMOS33;
+NET "output_port[11]" IOSTANDARD = LVCMOS33;
+NET "output_port[10]" IOSTANDARD = LVCMOS33;
+NET "output_port[9]" IOSTANDARD = LVCMOS33;
+NET "output_port[8]" IOSTANDARD = LVCMOS33;
+NET "output_port[7]" IOSTANDARD = LVCMOS33;
+NET "output_port[6]" IOSTANDARD = LVCMOS33;
+NET "output_port[5]" IOSTANDARD = LVCMOS33;
+NET "output_port[4]" IOSTANDARD = LVCMOS33;
+NET "output_port[3]" IOSTANDARD = LVCMOS33;
+NET "output_port[2]" IOSTANDARD = LVCMOS33;
+NET "output_port[1]" IOSTANDARD = LVCMOS33;
+NET "output_port[0]" IOSTANDARD = LVCMOS33;
+NET "clock" IOSTANDARD = LVCMOS33;
+
+
+NET "reset" LOC = P60;
+INST "clock_BUFGP" LOC = P15;
+NET "clock" LOC = P15;
+NET "input_port[0]" LOC = P139;
+NET "input_port[1]" LOC = P138;
+NET "input_port[2]" LOC = P137;
+NET "output_port[1]" LOC = P41;
+NET "output_port[2]" LOC = P43;
+NET "output_port[3]" LOC = P44;
+NET "output_port[4]" LOC = P45;
+NET "output_port[5]" LOC = P46;
+NET "output_port[6]" LOC = P47;
+NET "output_port[7]" LOC = P48;
+NET "output_port[8]" LOC = P50;
+NET "output_port[9]" LOC = P51;
+NET "output_port[10]" LOC = P57;
+NET "output_port[11]" LOC = P58;
+NET "output_port[12]" LOC = P61;
+NET "output_port[0]" LOC = P40;
+
+# PlanAhead Generated physical constraints 
+NET "output_port[13]" LOC = P1;
+NET "output_port[14]" LOC = P2;
+NET "output_port[15]" LOC = P5;
+NET "input_port[3]" LOC = P6;
+NET "input_port[4]" LOC = P7;
+NET "input_port[5]" LOC = P8;
+NET "input_port[6]" LOC = P9;
+NET "input_port[7]" LOC = P10;
+NET "input_port[9]" LOC = P11;
+NET "input_port[8]" LOC = P12;
+NET "input_port[10]" LOC = P14;
+NET "input_port[11]" LOC = P16;
+NET "input_port[12]" LOC = P17;
+NET "input_port[14]" LOC = P21;
+NET "input_port[13]" LOC = P22;
+NET "input_port[15]" LOC = P23;
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2020/04/27
+NET "clock" TNM_NET = clock;
+TIMESPEC TS_clock = PERIOD "clock" 50 ns HIGH 50%;

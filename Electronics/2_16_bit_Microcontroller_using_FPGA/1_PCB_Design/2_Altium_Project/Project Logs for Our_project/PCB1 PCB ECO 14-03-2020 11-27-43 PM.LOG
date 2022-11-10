@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=S1-1
+Removed Pin From Net: NetName=X M1 Pin=S1-A1
+Removed Member From Class: ClassName=Sheet1 Member=S1
+Added Component: Designator=(CHS-01TA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Nidec Copal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CHS-01TA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CHS-01TA/Nidec%20Copal%20Electronics/view-part/2873101/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=X M1 Pin=-S0
+Added Pin To Net: NetName=GND Pin=-SI
+Added Member To Class: ClassName=Sheet1 Member=Component  CHS-01TA

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=X PROG Pin=S?-S0
+Removed Pin From Net: NetName=GND Pin=S?-SI
+Removed Member From Class: ClassName=Sheet1 Member=S?
+Added Component: Designator=S2(SKRK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ALPS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SKRKAEE010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SKRKAEE010/ALPS/view-part/380772/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=X PROG Pin=S2-2
+Added Member To Class: ClassName=Sheet1 Member=Component S2 SKRKAEE010

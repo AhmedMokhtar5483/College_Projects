@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=ULED2 Pin=L2-2
+Removed Pin From Net: NetName=GND Pin=P4-2
+Removed Pin From Net: NetName=D_TXD Pin=R9-1
+Removed Pin From Net: NetName=D_RXD Pin=R11-1
+Removed Pin From Net: NetName=V33A Pin=R23-1
+Removed Pin From Net: NetName=V33A Pin=R24-1
+Removed Pin From Net: NetName=ASW2 Pin=R24-2
+Removed Pin From Net: NetName=ASW2 Pin=S1-1
+Removed Pin From Net: NetName=X M1 Pin=S1-2
+Removed Pin From Net: NetName=GND Pin=S1-3
+Removed Pin From Net: NetName=GND Pin=S1-4
+Removed Member From Class: ClassName=Sheet1 Member=L2
+Removed Member From Class: ClassName=Sheet1 Member=P4
+Removed Member From Class: ClassName=Sheet1 Member=R9
+Removed Member From Class: ClassName=Sheet1 Member=R11
+Removed Member From Class: ClassName=Sheet1 Member=R23
+Removed Member From Class: ClassName=Sheet1 Member=R24
+Change Component Footprint: Designator=S1 Old Footprint=DIP-4 New Footprint=416131160801
+Change Component Comment : Designator=S1 Old Comment=SW DIP-2 New Comment=416131160801
+Change component parameters: Designator = "S1"; Footprint = "416131160801"; UniqueID = "\BGKNPOMV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "732-3851-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com.eg/product-detail/en/w-rth-elektronik/416131160801/732-3851-1-ND/3174553?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "416131160801"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/416131160801/Wurth%20Electronics%20Inc./view-part/2598526/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=X M1 Pin=S1-A1
