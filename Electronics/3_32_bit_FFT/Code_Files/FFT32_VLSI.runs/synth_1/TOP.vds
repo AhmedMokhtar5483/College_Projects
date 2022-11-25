@@ -1,0 +1,1297 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 26 04:50:22 2022
+# Process ID: 4060
+# Current directory: D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.runs/synth_1/TOP.vds
+# Journal file: D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+Command: synth_design -top TOP -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16068 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 430.883 ; gain = 98.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/TOP.v:10]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MAC2_Controlled' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MAC2_Controlled.v:10]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/counter.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (1#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/counter.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4x1' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MUX_4x1.v:10]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MUX_4x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4x1' (2#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MUX_4x1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MAC_2' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MAC_2.v:10]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Complex_Multiplier' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:11]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Complex_Multiplier' (3#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MAC_2' (4#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MAC_2.v:10]
+INFO: [Synth 8-6157] synthesizing module 'DECODER' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/DECODER.v:10]
+INFO: [Synth 8-226] default block is never used [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/DECODER.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'DECODER' (5#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/DECODER.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Register_file' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Register_file.v:10]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_file' (6#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Register_file.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'MAC2_Controlled' (7#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/MAC2_Controlled.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Register_Bank' [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Register_Bank.v:11]
+	Parameter length bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_Bank' (8#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Register_Bank.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (9#1) [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/TOP.v:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 487.613 ; gain = 155.215
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 487.613 ; gain = 155.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 487.613 ; gain = 155.215
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/constrs_1/new/Constraints.xdc]
+Finished Parsing XDC File [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/constrs_1/new/Constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1632.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1632.461 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.335 . Memory (MB): peak = 1632.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1632.461 ; gain = 1300.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1632.461 ; gain = 1300.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1632.461 ; gain = 1300.062
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:30]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:30]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:31]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.srcs/sources_1/new/Complex_Multiplier.v:31]
+INFO: [Synth 8-5544] ROM "r1_real" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r2_real" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r3_real" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r4_real" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1632.461 ; gain = 1300.062
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     36 Bit       Adders := 20    
+	   2 Input     36 Bit       Adders := 20    
+	   2 Input     24 Bit       Adders := 40    
+	   3 Input     24 Bit       Adders := 40    
+	   2 Input      2 Bit       Adders := 20    
++---Registers : 
+	               24 Bit    Registers := 640   
+	                2 Bit    Registers := 20    
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 120   
+	   4 Input      1 Bit        Muxes := 80    
+	   5 Input      1 Bit        Muxes := 160   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module MUX_4x1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 2     
+Module Complex_Multiplier 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     36 Bit       Adders := 1     
+	   2 Input     36 Bit       Adders := 1     
+Module MAC_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 2     
+	   3 Input     24 Bit       Adders := 2     
+Module DECODER 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+Module Register_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 8     
++---Muxes : 
+	   5 Input      1 Bit        Muxes := 4     
+Module Register_Bank 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 64    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_real0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: operator M/CM/o_real0 is absorbed into DSP M/CM/o_real0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: Generating DSP M/CM/o_imag0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+DSP Report: operator M/CM/o_imag0 is absorbed into DSP M/CM/o_imag0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:01:00 . Memory (MB): peak = 1632.461 ; gain = 1300.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex_Multiplier | (PCIN>>17)+A*B | 19     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:17 . Memory (MB): peak = 2091.289 ; gain = 1758.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:29 . Memory (MB): peak = 2210.996 ; gain = 1878.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:27 ; elapsed = 00:01:44 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:46 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:31 ; elapsed = 00:01:47 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:35 ; elapsed = 00:01:51 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:35 ; elapsed = 00:01:51 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:35 ; elapsed = 00:01:51 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:35 ; elapsed = 00:01:52 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |BUFG            |     2|
+|2     |CARRY8          |   440|
+|3     |DSP_ALU         |   160|
+|4     |DSP_A_B_DATA    |   160|
+|5     |DSP_C_DATA      |   160|
+|6     |DSP_MULTIPLIER  |   160|
+|7     |DSP_M_DATA      |   160|
+|8     |DSP_OUTPUT      |   160|
+|9     |DSP_PREADD      |   160|
+|10    |DSP_PREADD_DATA |   160|
+|11    |LUT1            |    43|
+|12    |LUT2            |  3481|
+|13    |LUT6            |  1920|
+|14    |FDCE            |  7680|
+|15    |FDRE            |  7724|
+|16    |IBUF            |  1539|
+|17    |OBUF            |  1536|
++------+----------------+------+
+
+Report Instance Areas: 
++------+-------------------+---------------------------+------+
+|      |Instance           |Module                     |Cells |
++------+-------------------+---------------------------+------+
+|1     |top                |                           | 25645|
+|2     |  MAC_C1           |MAC2_Controlled            |   742|
+|3     |    C1             |counter_114                |   152|
+|4     |    M              |MAC_2_115                  |   206|
+|5     |      CM           |Complex_Multiplier_118     |   194|
+|6     |        o_real0    |\M/CM/o_real0_funnel       |     8|
+|7     |        o_real0__0 |\M/CM/o_real0_funnel__1    |     8|
+|8     |        o_real0__1 |\M/CM/o_real0_funnel__2    |     8|
+|9     |        o_real0__2 |\M/CM/o_real0_funnel__3    |     8|
+|10    |        o_imag0    |\M/CM/o_real0_funnel__4    |     8|
+|11    |        o_imag0__0 |\M/CM/o_real0_funnel__5    |     8|
+|12    |        o_imag0__1 |\M/CM/o_real0_funnel__6    |     8|
+|13    |        o_imag0__2 |\M/CM/o_real0_funnel__7    |     8|
+|14    |    RF1            |Register_file_116          |   192|
+|15    |    RF2            |Register_file_117          |   192|
+|16    |  MAC_C10          |MAC2_Controlled_0          |   599|
+|17    |    C1             |counter_109                |     9|
+|18    |    M              |MAC_2_110                  |   206|
+|19    |      CM           |Complex_Multiplier_113     |   194|
+|20    |        o_real0    |\M/CM/o_real0_funnel__72   |     8|
+|21    |        o_real0__0 |\M/CM/o_real0_funnel__73   |     8|
+|22    |        o_real0__1 |\M/CM/o_real0_funnel__74   |     8|
+|23    |        o_real0__2 |\M/CM/o_real0_funnel__75   |     8|
+|24    |        o_imag0    |\M/CM/o_real0_funnel__76   |     8|
+|25    |        o_imag0__0 |\M/CM/o_real0_funnel__77   |     8|
+|26    |        o_imag0__1 |\M/CM/o_real0_funnel__78   |     8|
+|27    |        o_imag0__2 |\M/CM/o_real0_funnel__79   |     8|
+|28    |    RF1            |Register_file_111          |   192|
+|29    |    RF2            |Register_file_112          |   192|
+|30    |  MAC_C11          |MAC2_Controlled_1          |   599|
+|31    |    C1             |counter_104                |     9|
+|32    |    M              |MAC_2_105                  |   206|
+|33    |      CM           |Complex_Multiplier_108     |   194|
+|34    |        o_real0    |\M/CM/o_real0_funnel__80   |     8|
+|35    |        o_real0__0 |\M/CM/o_real0_funnel__81   |     8|
+|36    |        o_real0__1 |\M/CM/o_real0_funnel__82   |     8|
+|37    |        o_real0__2 |\M/CM/o_real0_funnel__83   |     8|
+|38    |        o_imag0    |\M/CM/o_real0_funnel__84   |     8|
+|39    |        o_imag0__0 |\M/CM/o_real0_funnel__85   |     8|
+|40    |        o_imag0__1 |\M/CM/o_real0_funnel__86   |     8|
+|41    |        o_imag0__2 |\M/CM/o_real0_funnel__87   |     8|
+|42    |    RF1            |Register_file_106          |   192|
+|43    |    RF2            |Register_file_107          |   192|
+|44    |  MAC_C12          |MAC2_Controlled_2          |   599|
+|45    |    C1             |counter_99                 |     9|
+|46    |    M              |MAC_2_100                  |   206|
+|47    |      CM           |Complex_Multiplier_103     |   194|
+|48    |        o_real0    |\M/CM/o_real0_funnel__88   |     8|
+|49    |        o_real0__0 |\M/CM/o_real0_funnel__89   |     8|
+|50    |        o_real0__1 |\M/CM/o_real0_funnel__90   |     8|
+|51    |        o_real0__2 |\M/CM/o_real0_funnel__91   |     8|
+|52    |        o_imag0    |\M/CM/o_real0_funnel__92   |     8|
+|53    |        o_imag0__0 |\M/CM/o_real0_funnel__93   |     8|
+|54    |        o_imag0__1 |\M/CM/o_real0_funnel__94   |     8|
+|55    |        o_imag0__2 |\M/CM/o_real0_funnel__95   |     8|
+|56    |    RF1            |Register_file_101          |   192|
+|57    |    RF2            |Register_file_102          |   192|
+|58    |  MAC_C120         |MAC2_Controlled_3          |   601|
+|59    |    C1             |counter_94                 |    11|
+|60    |    M              |MAC_2_95                   |   206|
+|61    |      CM           |Complex_Multiplier_98      |   194|
+|62    |        o_real0    |\M/CM/o_real0_funnel__152  |     8|
+|63    |        o_real0__0 |\M/CM/o_real0_funnel__153  |     8|
+|64    |        o_real0__1 |\M/CM/o_real0_funnel__154  |     8|
+|65    |        o_real0__2 |\M/CM/o_real0_funnel__155  |     8|
+|66    |        o_imag0    |\M/CM/o_real0_funnel__156  |     8|
+|67    |        o_imag0__0 |\M/CM/o_real0_funnel__157  |     8|
+|68    |        o_imag0__1 |\M/CM/o_real0_funnel__158  |     8|
+|69    |        o_imag0__2 |\M/CM/o_real0_funnel__159  |     8|
+|70    |    RF1            |Register_file_96           |   192|
+|71    |    RF2            |Register_file_97           |   192|
+|72    |  MAC_C13          |MAC2_Controlled_4          |   601|
+|73    |    C1             |counter_89                 |    11|
+|74    |    M              |MAC_2_90                   |   206|
+|75    |      CM           |Complex_Multiplier_93      |   194|
+|76    |        o_real0    |\M/CM/o_real0_funnel__96   |     8|
+|77    |        o_real0__0 |\M/CM/o_real0_funnel__97   |     8|
+|78    |        o_real0__1 |\M/CM/o_real0_funnel__98   |     8|
+|79    |        o_real0__2 |\M/CM/o_real0_funnel__99   |     8|
+|80    |        o_imag0    |\M/CM/o_real0_funnel__100  |     8|
+|81    |        o_imag0__0 |\M/CM/o_real0_funnel__101  |     8|
+|82    |        o_imag0__1 |\M/CM/o_real0_funnel__102  |     8|
+|83    |        o_imag0__2 |\M/CM/o_real0_funnel__103  |     8|
+|84    |    RF1            |Register_file_91           |   192|
+|85    |    RF2            |Register_file_92           |   192|
+|86    |  MAC_C14          |MAC2_Controlled_5          |   601|
+|87    |    C1             |counter_84                 |    11|
+|88    |    M              |MAC_2_85                   |   206|
+|89    |      CM           |Complex_Multiplier_88      |   194|
+|90    |        o_real0    |\M/CM/o_real0_funnel__104  |     8|
+|91    |        o_real0__0 |\M/CM/o_real0_funnel__105  |     8|
+|92    |        o_real0__1 |\M/CM/o_real0_funnel__106  |     8|
+|93    |        o_real0__2 |\M/CM/o_real0_funnel__107  |     8|
+|94    |        o_imag0    |\M/CM/o_real0_funnel__108  |     8|
+|95    |        o_imag0__0 |\M/CM/o_real0_funnel__109  |     8|
+|96    |        o_imag0__1 |\M/CM/o_real0_funnel__110  |     8|
+|97    |        o_imag0__2 |\M/CM/o_real0_funnel__111  |     8|
+|98    |    RF1            |Register_file_86           |   192|
+|99    |    RF2            |Register_file_87           |   192|
+|100   |  MAC_C15          |MAC2_Controlled_6          |   601|
+|101   |    C1             |counter_79                 |    11|
+|102   |    M              |MAC_2_80                   |   206|
+|103   |      CM           |Complex_Multiplier_83      |   194|
+|104   |        o_real0    |\M/CM/o_real0_funnel__112  |     8|
+|105   |        o_real0__0 |\M/CM/o_real0_funnel__113  |     8|
+|106   |        o_real0__1 |\M/CM/o_real0_funnel__114  |     8|
+|107   |        o_real0__2 |\M/CM/o_real0_funnel__115  |     8|
+|108   |        o_imag0    |\M/CM/o_real0_funnel__116  |     8|
+|109   |        o_imag0__0 |\M/CM/o_real0_funnel__117  |     8|
+|110   |        o_imag0__1 |\M/CM/o_real0_funnel__118  |     8|
+|111   |        o_imag0__2 |\M/CM/o_real0_funnel__119  |     8|
+|112   |    RF1            |Register_file_81           |   192|
+|113   |    RF2            |Register_file_82           |   192|
+|114   |  MAC_C16          |MAC2_Controlled_7          |   601|
+|115   |    C1             |counter_74                 |    11|
+|116   |    M              |MAC_2_75                   |   206|
+|117   |      CM           |Complex_Multiplier_78      |   194|
+|118   |        o_real0    |\M/CM/o_real0_funnel__120  |     8|
+|119   |        o_real0__0 |\M/CM/o_real0_funnel__121  |     8|
+|120   |        o_real0__1 |\M/CM/o_real0_funnel__122  |     8|
+|121   |        o_real0__2 |\M/CM/o_real0_funnel__123  |     8|
+|122   |        o_imag0    |\M/CM/o_real0_funnel__124  |     8|
+|123   |        o_imag0__0 |\M/CM/o_real0_funnel__125  |     8|
+|124   |        o_imag0__1 |\M/CM/o_real0_funnel__126  |     8|
+|125   |        o_imag0__2 |\M/CM/o_real0_funnel__127  |     8|
+|126   |    RF1            |Register_file_76           |   192|
+|127   |    RF2            |Register_file_77           |   192|
+|128   |  MAC_C17          |MAC2_Controlled_8          |   605|
+|129   |    C1             |counter_69                 |    15|
+|130   |    M              |MAC_2_70                   |   206|
+|131   |      CM           |Complex_Multiplier_73      |   194|
+|132   |        o_real0    |\M/CM/o_real0_funnel__128  |     8|
+|133   |        o_real0__0 |\M/CM/o_real0_funnel__129  |     8|
+|134   |        o_real0__1 |\M/CM/o_real0_funnel__130  |     8|
+|135   |        o_real0__2 |\M/CM/o_real0_funnel__131  |     8|
+|136   |        o_imag0    |\M/CM/o_real0_funnel__132  |     8|
+|137   |        o_imag0__0 |\M/CM/o_real0_funnel__133  |     8|
+|138   |        o_imag0__1 |\M/CM/o_real0_funnel__134  |     8|
+|139   |        o_imag0__2 |\M/CM/o_real0_funnel__135  |     8|
+|140   |    RF1            |Register_file_71           |   192|
+|141   |    RF2            |Register_file_72           |   192|
+|142   |  MAC_C18          |MAC2_Controlled_9          |   601|
+|143   |    C1             |counter_64                 |    11|
+|144   |    M              |MAC_2_65                   |   206|
+|145   |      CM           |Complex_Multiplier_68      |   194|
+|146   |        o_real0    |\M/CM/o_real0_funnel__136  |     8|
+|147   |        o_real0__0 |\M/CM/o_real0_funnel__137  |     8|
+|148   |        o_real0__1 |\M/CM/o_real0_funnel__138  |     8|
+|149   |        o_real0__2 |\M/CM/o_real0_funnel__139  |     8|
+|150   |        o_imag0    |\M/CM/o_real0_funnel__140  |     8|
+|151   |        o_imag0__0 |\M/CM/o_real0_funnel__141  |     8|
+|152   |        o_imag0__1 |\M/CM/o_real0_funnel__142  |     8|
+|153   |        o_imag0__2 |\M/CM/o_real0_funnel__143  |     8|
+|154   |    RF1            |Register_file_66           |   192|
+|155   |    RF2            |Register_file_67           |   192|
+|156   |  MAC_C19          |MAC2_Controlled_10         |   605|
+|157   |    C1             |counter_59                 |    15|
+|158   |    M              |MAC_2_60                   |   206|
+|159   |      CM           |Complex_Multiplier_63      |   194|
+|160   |        o_real0    |\M/CM/o_real0_funnel__144  |     8|
+|161   |        o_real0__0 |\M/CM/o_real0_funnel__145  |     8|
+|162   |        o_real0__1 |\M/CM/o_real0_funnel__146  |     8|
+|163   |        o_real0__2 |\M/CM/o_real0_funnel__147  |     8|
+|164   |        o_imag0    |\M/CM/o_real0_funnel__148  |     8|
+|165   |        o_imag0__0 |\M/CM/o_real0_funnel__149  |     8|
+|166   |        o_imag0__1 |\M/CM/o_real0_funnel__150  |     8|
+|167   |        o_imag0__2 |\M/CM/o_real0_funnel__151  |     8|
+|168   |    RF1            |Register_file_61           |   192|
+|169   |    RF2            |Register_file_62           |   192|
+|170   |  MAC_C2           |MAC2_Controlled_11         |   742|
+|171   |    C1             |counter_54                 |   152|
+|172   |    M              |MAC_2_55                   |   206|
+|173   |      CM           |Complex_Multiplier_58      |   194|
+|174   |        o_real0    |\M/CM/o_real0_funnel__8    |     8|
+|175   |        o_real0__0 |\M/CM/o_real0_funnel__9    |     8|
+|176   |        o_real0__1 |\M/CM/o_real0_funnel__10   |     8|
+|177   |        o_real0__2 |\M/CM/o_real0_funnel__11   |     8|
+|178   |        o_imag0    |\M/CM/o_real0_funnel__12   |     8|
+|179   |        o_imag0__0 |\M/CM/o_real0_funnel__13   |     8|
+|180   |        o_imag0__1 |\M/CM/o_real0_funnel__14   |     8|
+|181   |        o_imag0__2 |\M/CM/o_real0_funnel__15   |     8|
+|182   |    RF1            |Register_file_56           |   192|
+|183   |    RF2            |Register_file_57           |   192|
+|184   |  MAC_C3           |MAC2_Controlled_12         |   742|
+|185   |    C1             |counter_49                 |   152|
+|186   |    M              |MAC_2_50                   |   206|
+|187   |      CM           |Complex_Multiplier_53      |   194|
+|188   |        o_real0    |\M/CM/o_real0_funnel__16   |     8|
+|189   |        o_real0__0 |\M/CM/o_real0_funnel__17   |     8|
+|190   |        o_real0__1 |\M/CM/o_real0_funnel__18   |     8|
+|191   |        o_real0__2 |\M/CM/o_real0_funnel__19   |     8|
+|192   |        o_imag0    |\M/CM/o_real0_funnel__20   |     8|
+|193   |        o_imag0__0 |\M/CM/o_real0_funnel__21   |     8|
+|194   |        o_imag0__1 |\M/CM/o_real0_funnel__22   |     8|
+|195   |        o_imag0__2 |\M/CM/o_real0_funnel__23   |     8|
+|196   |    RF1            |Register_file_51           |   192|
+|197   |    RF2            |Register_file_52           |   192|
+|198   |  MAC_C4           |MAC2_Controlled_13         |   742|
+|199   |    C1             |counter_44                 |   152|
+|200   |    M              |MAC_2_45                   |   206|
+|201   |      CM           |Complex_Multiplier_48      |   194|
+|202   |        o_real0    |\M/CM/o_real0_funnel__24   |     8|
+|203   |        o_real0__0 |\M/CM/o_real0_funnel__25   |     8|
+|204   |        o_real0__1 |\M/CM/o_real0_funnel__26   |     8|
+|205   |        o_real0__2 |\M/CM/o_real0_funnel__27   |     8|
+|206   |        o_imag0    |\M/CM/o_real0_funnel__28   |     8|
+|207   |        o_imag0__0 |\M/CM/o_real0_funnel__29   |     8|
+|208   |        o_imag0__1 |\M/CM/o_real0_funnel__30   |     8|
+|209   |        o_imag0__2 |\M/CM/o_real0_funnel__31   |     8|
+|210   |    RF1            |Register_file_46           |   192|
+|211   |    RF2            |Register_file_47           |   192|
+|212   |  MAC_C5           |MAC2_Controlled_14         |   601|
+|213   |    C1             |counter_39                 |    11|
+|214   |    M              |MAC_2_40                   |   206|
+|215   |      CM           |Complex_Multiplier_43      |   194|
+|216   |        o_real0    |\M/CM/o_real0_funnel__32   |     8|
+|217   |        o_real0__0 |\M/CM/o_real0_funnel__33   |     8|
+|218   |        o_real0__1 |\M/CM/o_real0_funnel__34   |     8|
+|219   |        o_real0__2 |\M/CM/o_real0_funnel__35   |     8|
+|220   |        o_imag0    |\M/CM/o_real0_funnel__36   |     8|
+|221   |        o_imag0__0 |\M/CM/o_real0_funnel__37   |     8|
+|222   |        o_imag0__1 |\M/CM/o_real0_funnel__38   |     8|
+|223   |        o_imag0__2 |\M/CM/o_real0_funnel__39   |     8|
+|224   |    RF1            |Register_file_41           |   192|
+|225   |    RF2            |Register_file_42           |   192|
+|226   |  MAC_C6           |MAC2_Controlled_15         |   601|
+|227   |    C1             |counter_34                 |    11|
+|228   |    M              |MAC_2_35                   |   206|
+|229   |      CM           |Complex_Multiplier_38      |   194|
+|230   |        o_real0    |\M/CM/o_real0_funnel__40   |     8|
+|231   |        o_real0__0 |\M/CM/o_real0_funnel__41   |     8|
+|232   |        o_real0__1 |\M/CM/o_real0_funnel__42   |     8|
+|233   |        o_real0__2 |\M/CM/o_real0_funnel__43   |     8|
+|234   |        o_imag0    |\M/CM/o_real0_funnel__44   |     8|
+|235   |        o_imag0__0 |\M/CM/o_real0_funnel__45   |     8|
+|236   |        o_imag0__1 |\M/CM/o_real0_funnel__46   |     8|
+|237   |        o_imag0__2 |\M/CM/o_real0_funnel__47   |     8|
+|238   |    RF1            |Register_file_36           |   192|
+|239   |    RF2            |Register_file_37           |   192|
+|240   |  MAC_C7           |MAC2_Controlled_16         |   601|
+|241   |    C1             |counter_29                 |    11|
+|242   |    M              |MAC_2_30                   |   206|
+|243   |      CM           |Complex_Multiplier_33      |   194|
+|244   |        o_real0    |\M/CM/o_real0_funnel__48   |     8|
+|245   |        o_real0__0 |\M/CM/o_real0_funnel__49   |     8|
+|246   |        o_real0__1 |\M/CM/o_real0_funnel__50   |     8|
+|247   |        o_real0__2 |\M/CM/o_real0_funnel__51   |     8|
+|248   |        o_imag0    |\M/CM/o_real0_funnel__52   |     8|
+|249   |        o_imag0__0 |\M/CM/o_real0_funnel__53   |     8|
+|250   |        o_imag0__1 |\M/CM/o_real0_funnel__54   |     8|
+|251   |        o_imag0__2 |\M/CM/o_real0_funnel__55   |     8|
+|252   |    RF1            |Register_file_31           |   192|
+|253   |    RF2            |Register_file_32           |   192|
+|254   |  MAC_C8           |MAC2_Controlled_17         |   601|
+|255   |    C1             |counter_24                 |    11|
+|256   |    M              |MAC_2_25                   |   206|
+|257   |      CM           |Complex_Multiplier_28      |   194|
+|258   |        o_real0    |\M/CM/o_real0_funnel__56   |     8|
+|259   |        o_real0__0 |\M/CM/o_real0_funnel__57   |     8|
+|260   |        o_real0__1 |\M/CM/o_real0_funnel__58   |     8|
+|261   |        o_real0__2 |\M/CM/o_real0_funnel__59   |     8|
+|262   |        o_imag0    |\M/CM/o_real0_funnel__60   |     8|
+|263   |        o_imag0__0 |\M/CM/o_real0_funnel__61   |     8|
+|264   |        o_imag0__1 |\M/CM/o_real0_funnel__62   |     8|
+|265   |        o_imag0__2 |\M/CM/o_real0_funnel__63   |     8|
+|266   |    RF1            |Register_file_26           |   192|
+|267   |    RF2            |Register_file_27           |   192|
+|268   |  MAC_C9           |MAC2_Controlled_18         |   599|
+|269   |    C1             |counter                    |     9|
+|270   |    M              |MAC_2                      |   206|
+|271   |      CM           |Complex_Multiplier         |   194|
+|272   |        o_real0    |\M/CM/o_real0_funnel__64   |     8|
+|273   |        o_real0__0 |\M/CM/o_real0_funnel__65   |     8|
+|274   |        o_real0__1 |\M/CM/o_real0_funnel__66   |     8|
+|275   |        o_real0__2 |\M/CM/o_real0_funnel__67   |     8|
+|276   |        o_imag0    |\M/CM/o_real0_funnel__68   |     8|
+|277   |        o_imag0__0 |\M/CM/o_real0_funnel__69   |     8|
+|278   |        o_imag0__1 |\M/CM/o_real0_funnel__70   |     8|
+|279   |        o_imag0__2 |\M/CM/o_real0_funnel__71   |     8|
+|280   |    RF1            |Register_file              |   192|
+|281   |    RF2            |Register_file_23           |   192|
+|282   |  RB1              |Register_Bank              |  2112|
+|283   |  RB2              |Register_Bank_19           |  2112|
+|284   |  RB3              |Register_Bank_20           |  2112|
+|285   |  RB4              |Register_Bank_21           |  2112|
+|286   |  RB5              |Register_Bank_22           |  1536|
++------+-------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:35 ; elapsed = 00:01:52 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:18 ; elapsed = 00:01:30 . Memory (MB): peak = 2302.773 ; gain = 825.527
+Synthesis Optimization Complete : Time (s): cpu = 00:01:35 ; elapsed = 00:01:52 . Memory (MB): peak = 2302.773 ; gain = 1970.375
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2141 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2330.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1701 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 160 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1539 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:02:07 . Memory (MB): peak = 2330.359 ; gain = 2011.020
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2330.359 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Ahmad Abusaif/4th year/2nd Term/3-VLSI/Course Project/FFT32_VLSI/FFT32_VLSI.runs/synth_1/TOP.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2330.359 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 26 04:52:43 2022...

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="116833334fs"></ZoomStartTime>
+      <ZoomEndTime time="975833335fs"></ZoomEndTime>
+      <Cursor1Time time="260000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="123"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="132" />
+   <wvobject fp_name="/TOP_TB/clk_25M" type="logic">
+      <obj_property name="ElementShortName">clk_25M</obj_property>
+      <obj_property name="ObjectShortName">clk_25M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/clk_100M" type="logic">
+      <obj_property name="ElementShortName">clk_100M</obj_property>
+      <obj_property name="ObjectShortName">clk_100M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in0_re" type="array">
+      <obj_property name="ElementShortName">in0_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in0_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in1_re" type="array">
+      <obj_property name="ElementShortName">in1_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in1_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in2_re" type="array">
+      <obj_property name="ElementShortName">in2_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in2_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in3_re" type="array">
+      <obj_property name="ElementShortName">in3_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in3_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in4_re" type="array">
+      <obj_property name="ElementShortName">in4_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in4_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in5_re" type="array">
+      <obj_property name="ElementShortName">in5_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in5_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in6_re" type="array">
+      <obj_property name="ElementShortName">in6_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in6_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in7_re" type="array">
+      <obj_property name="ElementShortName">in7_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in7_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in8_re" type="array">
+      <obj_property name="ElementShortName">in8_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in8_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in9_re" type="array">
+      <obj_property name="ElementShortName">in9_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in9_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in10_re" type="array">
+      <obj_property name="ElementShortName">in10_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in10_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in11_re" type="array">
+      <obj_property name="ElementShortName">in11_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in11_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in12_re" type="array">
+      <obj_property name="ElementShortName">in12_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in12_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in13_re" type="array">
+      <obj_property name="ElementShortName">in13_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in13_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in14_re" type="array">
+      <obj_property name="ElementShortName">in14_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in14_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in15_re" type="array">
+      <obj_property name="ElementShortName">in15_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in15_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in16_re" type="array">
+      <obj_property name="ElementShortName">in16_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in16_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in17_re" type="array">
+      <obj_property name="ElementShortName">in17_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in17_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in18_re" type="array">
+      <obj_property name="ElementShortName">in18_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in18_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in19_re" type="array">
+      <obj_property name="ElementShortName">in19_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in19_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in20_re" type="array">
+      <obj_property name="ElementShortName">in20_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in20_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in21_re" type="array">
+      <obj_property name="ElementShortName">in21_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in21_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in22_re" type="array">
+      <obj_property name="ElementShortName">in22_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in22_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in23_re" type="array">
+      <obj_property name="ElementShortName">in23_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in23_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in24_re" type="array">
+      <obj_property name="ElementShortName">in24_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in24_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in25_re" type="array">
+      <obj_property name="ElementShortName">in25_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in25_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in26_re" type="array">
+      <obj_property name="ElementShortName">in26_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in26_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in27_re" type="array">
+      <obj_property name="ElementShortName">in27_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in27_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in28_re" type="array">
+      <obj_property name="ElementShortName">in28_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in28_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in29_re" type="array">
+      <obj_property name="ElementShortName">in29_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in29_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in30_re" type="array">
+      <obj_property name="ElementShortName">in30_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in30_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in31_re" type="array">
+      <obj_property name="ElementShortName">in31_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in31_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in0_im" type="array">
+      <obj_property name="ElementShortName">in0_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in0_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in1_im" type="array">
+      <obj_property name="ElementShortName">in1_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in1_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in2_im" type="array">
+      <obj_property name="ElementShortName">in2_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in2_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in3_im" type="array">
+      <obj_property name="ElementShortName">in3_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in3_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in4_im" type="array">
+      <obj_property name="ElementShortName">in4_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in4_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in5_im" type="array">
+      <obj_property name="ElementShortName">in5_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in5_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in6_im" type="array">
+      <obj_property name="ElementShortName">in6_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in6_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in7_im" type="array">
+      <obj_property name="ElementShortName">in7_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in7_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in8_im" type="array">
+      <obj_property name="ElementShortName">in8_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in8_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in9_im" type="array">
+      <obj_property name="ElementShortName">in9_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in9_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in10_im" type="array">
+      <obj_property name="ElementShortName">in10_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in10_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in11_im" type="array">
+      <obj_property name="ElementShortName">in11_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in11_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in12_im" type="array">
+      <obj_property name="ElementShortName">in12_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in12_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in13_im" type="array">
+      <obj_property name="ElementShortName">in13_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in13_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in14_im" type="array">
+      <obj_property name="ElementShortName">in14_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in14_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in15_im" type="array">
+      <obj_property name="ElementShortName">in15_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in15_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in16_im" type="array">
+      <obj_property name="ElementShortName">in16_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in16_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in17_im" type="array">
+      <obj_property name="ElementShortName">in17_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in17_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in18_im" type="array">
+      <obj_property name="ElementShortName">in18_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in18_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in19_im" type="array">
+      <obj_property name="ElementShortName">in19_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in19_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in20_im" type="array">
+      <obj_property name="ElementShortName">in20_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in20_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in21_im" type="array">
+      <obj_property name="ElementShortName">in21_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in21_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in22_im" type="array">
+      <obj_property name="ElementShortName">in22_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in22_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in23_im" type="array">
+      <obj_property name="ElementShortName">in23_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in23_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in24_im" type="array">
+      <obj_property name="ElementShortName">in24_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in24_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in25_im" type="array">
+      <obj_property name="ElementShortName">in25_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in25_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in26_im" type="array">
+      <obj_property name="ElementShortName">in26_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in26_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in27_im" type="array">
+      <obj_property name="ElementShortName">in27_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in27_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in28_im" type="array">
+      <obj_property name="ElementShortName">in28_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in28_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in29_im" type="array">
+      <obj_property name="ElementShortName">in29_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in29_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in30_im" type="array">
+      <obj_property name="ElementShortName">in30_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in30_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/in31_im" type="array">
+      <obj_property name="ElementShortName">in31_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in31_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out0_re" type="array">
+      <obj_property name="ElementShortName">out0_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out1_re" type="array">
+      <obj_property name="ElementShortName">out1_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out1_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out2_re" type="array">
+      <obj_property name="ElementShortName">out2_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out2_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out3_re" type="array">
+      <obj_property name="ElementShortName">out3_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out3_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out4_re" type="array">
+      <obj_property name="ElementShortName">out4_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out4_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out5_re" type="array">
+      <obj_property name="ElementShortName">out5_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out5_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out6_re" type="array">
+      <obj_property name="ElementShortName">out6_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out6_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out7_re" type="array">
+      <obj_property name="ElementShortName">out7_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out7_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out8_re" type="array">
+      <obj_property name="ElementShortName">out8_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out8_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out9_re" type="array">
+      <obj_property name="ElementShortName">out9_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out9_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out10_re" type="array">
+      <obj_property name="ElementShortName">out10_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out10_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out11_re" type="array">
+      <obj_property name="ElementShortName">out11_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out11_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out12_re" type="array">
+      <obj_property name="ElementShortName">out12_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out12_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out13_re" type="array">
+      <obj_property name="ElementShortName">out13_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out13_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out14_re" type="array">
+      <obj_property name="ElementShortName">out14_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out14_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out15_re" type="array">
+      <obj_property name="ElementShortName">out15_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out15_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out16_re" type="array">
+      <obj_property name="ElementShortName">out16_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out16_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out17_re" type="array">
+      <obj_property name="ElementShortName">out17_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out17_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out18_re" type="array">
+      <obj_property name="ElementShortName">out18_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out18_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out19_re" type="array">
+      <obj_property name="ElementShortName">out19_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out19_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out20_re" type="array">
+      <obj_property name="ElementShortName">out20_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out20_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out21_re" type="array">
+      <obj_property name="ElementShortName">out21_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out21_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out22_re" type="array">
+      <obj_property name="ElementShortName">out22_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out22_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out23_re" type="array">
+      <obj_property name="ElementShortName">out23_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out23_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out24_re" type="array">
+      <obj_property name="ElementShortName">out24_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out24_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out25_re" type="array">
+      <obj_property name="ElementShortName">out25_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out25_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out26_re" type="array">
+      <obj_property name="ElementShortName">out26_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out26_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out27_re" type="array">
+      <obj_property name="ElementShortName">out27_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out27_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out28_re" type="array">
+      <obj_property name="ElementShortName">out28_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out28_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out29_re" type="array">
+      <obj_property name="ElementShortName">out29_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out29_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out30_re" type="array">
+      <obj_property name="ElementShortName">out30_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out30_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out31_re" type="array">
+      <obj_property name="ElementShortName">out31_re[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out31_re[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out0_im" type="array">
+      <obj_property name="ElementShortName">out0_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out1_im" type="array">
+      <obj_property name="ElementShortName">out1_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out1_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out2_im" type="array">
+      <obj_property name="ElementShortName">out2_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out2_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out3_im" type="array">
+      <obj_property name="ElementShortName">out3_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out3_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out4_im" type="array">
+      <obj_property name="ElementShortName">out4_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out4_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out5_im" type="array">
+      <obj_property name="ElementShortName">out5_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out5_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out6_im" type="array">
+      <obj_property name="ElementShortName">out6_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out6_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out7_im" type="array">
+      <obj_property name="ElementShortName">out7_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out7_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out8_im" type="array">
+      <obj_property name="ElementShortName">out8_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out8_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out9_im" type="array">
+      <obj_property name="ElementShortName">out9_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out9_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out10_im" type="array">
+      <obj_property name="ElementShortName">out10_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out10_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out11_im" type="array">
+      <obj_property name="ElementShortName">out11_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out11_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out12_im" type="array">
+      <obj_property name="ElementShortName">out12_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out12_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out13_im" type="array">
+      <obj_property name="ElementShortName">out13_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out13_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out14_im" type="array">
+      <obj_property name="ElementShortName">out14_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out14_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out15_im" type="array">
+      <obj_property name="ElementShortName">out15_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out15_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out16_im" type="array">
+      <obj_property name="ElementShortName">out16_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out16_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out17_im" type="array">
+      <obj_property name="ElementShortName">out17_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out17_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out18_im" type="array">
+      <obj_property name="ElementShortName">out18_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out18_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out19_im" type="array">
+      <obj_property name="ElementShortName">out19_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out19_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out20_im" type="array">
+      <obj_property name="ElementShortName">out20_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out20_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out21_im" type="array">
+      <obj_property name="ElementShortName">out21_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out21_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out22_im" type="array">
+      <obj_property name="ElementShortName">out22_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out22_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out23_im" type="array">
+      <obj_property name="ElementShortName">out23_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out23_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out24_im" type="array">
+      <obj_property name="ElementShortName">out24_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out24_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out25_im" type="array">
+      <obj_property name="ElementShortName">out25_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out25_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out26_im" type="array">
+      <obj_property name="ElementShortName">out26_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out26_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out27_im" type="array">
+      <obj_property name="ElementShortName">out27_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out27_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out28_im" type="array">
+      <obj_property name="ElementShortName">out28_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out28_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out29_im" type="array">
+      <obj_property name="ElementShortName">out29_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out29_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out30_im" type="array">
+      <obj_property name="ElementShortName">out30_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out30_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/out31_im" type="array">
+      <obj_property name="ElementShortName">out31_im[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out31_im[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/length" type="array">
+      <obj_property name="ElementShortName">length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">length[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

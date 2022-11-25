@@ -1,0 +1,179 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Cairo University
+// Engineer: Ahmed Abusaif
+// Create Date: 05/17/2022 02:00:18 PM
+// Module Name: Complex_Multiplier
+// Project Name: 32 FFT  
+//////////////////////////////////////////////////////////////////////////////////
+
+module TOP_TB();
+parameter length = 24 ;
+
+reg clk_25M  ;
+reg clk_100M ; 
+reg rst ;
+reg [8-1:0] in0_re8,in1_re8,in2_re8,in3_re8,in4_re8,in5_re8,in6_re8,in7_re8,in8_re8,in9_re8,in10_re8;
+reg [8-1:0] in11_re8,in12_re8,in13_re8,in14_re8,in15_re8,in16_re8,in17_re8,in18_re8,in19_re8,in20_re8;
+reg [8-1:0] in21_re8,in22_re8,in23_re8,in24_re8,in25_re8,in26_re8,in27_re8,in28_re8,in29_re8,in30_re8,in31_re8;
+
+reg [8-1:0] in0_im8,in1_im8,in2_im8,in3_im8,in4_im8,in5_im8,in6_im8,in7_im8,in8_im8,in9_im8,in10_im8;
+reg [8-1:0] in11_im8,in12_im8,in13_im8,in14_im8,in15_im8,in16_im8,in17_im8,in18_im8,in19_im8,in20_im8;
+reg [8-1:0] in21_im8,in22_im8,in23_im8,in24_im8,in25_im8,in26_im8,in27_im8,in28_im8,in29_im8,in30_im8,in31_im8;
+
+wire [length-1:0] out0_re,out1_re,out2_re,out3_re,out4_re,out5_re,out6_re,out7_re,out8_re,out9_re ;
+wire [length-1:0] out10_re,out11_re,out12_re,out13_re,out14_re,out15_re,out16_re,out17_re,out18_re ;
+wire [length-1:0] out19_re,out20_re,out21_re,out22_re,out23_re,out24_re,out25_re,out26_re,out27_re ;
+wire [length-1:0] out28_re,out29_re,out30_re,out31_re ;
+
+wire [length-1:0] out0_im,out1_im,out2_im,out3_im,out4_im,out5_im,out6_im,out7_im,out8_im,out9_im ;
+wire [length-1:0] out10_im,out11_im,out12_im,out13_im,out14_im,out15_im,out16_im,out17_im,out18_im ;
+wire [length-1:0] out19_im,out20_im,out21_im,out22_im,out23_im,out24_im,out25_im,out26_im,out27_im ;
+wire [length-1:0] out28_im,out29_im,out30_im,out31_im ;
+
+
+
+TOP #(.length(length)) T1(
+.clk_25M(clk_25M) ,
+.clk_100M(clk_100M) , 
+.rst(rst) ,
+.in0_re8(in0_re8),.in1_re8(in1_re8),.in2_re8(in2_re8),.in3_re8(in3_re8),.in4_re8(in4_re8),.in5_re8(in5_re8),.in6_re8(in6_re8),.in7_re8(in7_re8),.in8_re8(in8_re8),.in9_re8(in9_re8),.in10_re8(in10_re8),
+.in11_re8(in11_re8),.in12_re8(in12_re8),.in13_re8(in13_re8),.in14_re8(in14_re8),.in15_re8(in15_re8),.in16_re8(in16_re8),.in17_re8(in17_re8),.in18_re8(in18_re8),.in19_re8(in19_re8),.in20_re8(in20_re8),
+.in21_re8(in21_re8),.in22_re8(in22_re8),.in23_re8(in23_re8),.in24_re8(in24_re8),.in25_re8(in25_re8),.in26_re8(in26_re8),.in27_re8(in27_re8),.in28_re8(in28_re8),.in29_re8(in29_re8),.in30_re8(in30_re8),.in31_re8(in31_re8),
+
+.in0_im8(in0_im8),.in1_im8(in1_im8),.in2_im8(in2_im8),.in3_im8(in3_im8),.in4_im8(in4_im8),.in5_im8(in5_im8),.in6_im8(in6_im8),.in7_im8(in7_im8),.in8_im8(in8_im8),.in9_im8(in9_im8),.in10_im8(in10_im8),
+.in11_im8(in11_im8),.in12_im8(in12_im8),.in13_im8(in13_im8),.in14_im8(in14_im8),.in15_im8(in15_im8),.in16_im8(in16_im8),.in17_im8(in17_im8),.in18_im8(in18_im8),.in19_im8(in19_im8),.in20_im8(in20_im8),
+.in21_im8(in21_im8),.in22_im8(in22_im8),.in23_im8(in23_im8),.in24_im8(in24_im8),.in25_im8(in25_im8),.in26_im8(in26_im8),.in27_im8(in27_im8),.in28_im8(in28_im8),.in29_im8(in29_im8),.in30_im8(in30_im8),.in31_im8(in31_im8),
+
+.out0_re(out0_re),.out1_re(out1_re),.out2_re(out2_re),.out3_re(out3_re),.out4_re(out4_re),.out5_re(out5_re),.out6_re(out6_re),.out7_re(out7_re),.out8_re(out8_re),.out9_re(out9_re),
+.out10_re(out10_re),.out11_re(out11_re),.out12_re(out12_re),.out13_re(out13_re),.out14_re(out14_re),.out15_re(out15_re),.out16_re(out16_re),.out17_re(out17_re),.out18_re(out18_re),
+.out19_re(out19_re),.out20_re(out20_re),.out21_re(out21_re),.out22_re(out22_re),.out23_re(out23_re),.out24_re(out24_re),.out25_re(out25_re),.out26_re(out26_re),.out27_re(out27_re),
+.out28_re(out28_re),.out29_re(out29_re),.out30_re(out30_re),.out31_re(out31_re),
+
+.out0_im(out0_im),.out1_im(out1_im),.out2_im(out2_im),.out3_im(out3_im),.out4_im(out4_im),.out5_im(out5_im),.out6_im(out6_im),.out7_im(out7_im),.out8_im(out8_im),.out9_im(out9_im),
+.out10_im(out10_im),.out11_im(out11_im),.out12_im(out12_im),.out13_im(out13_im),.out14_im(out14_im),.out15_im(out15_im),.out16_im(out16_im),.out17_im(out17_im),.out18_im(out18_im),
+.out19_im(out19_im),.out20_im(out20_im),.out21_im(out21_im),.out22_im(out22_im),.out23_im(out23_im),.out24_im(out24_im),.out25_im(out25_im),.out26_im(out26_im),.out27_im(out27_im),
+.out28_im(out28_im),.out29_im(out29_im),.out30_im(out30_im),.out31_im(out31_im)
+);
+
+initial 
+begin
+    clk_100M = 0 ;
+    forever 
+        #5 clk_100M = ~clk_100M ;
+end
+
+initial 
+begin
+    clk_25M = 0 ;
+    forever 
+        #20 clk_25M = ~clk_25M ; 
+end
+    
+initial 
+begin 
+    #880 rst = 1 ; 
+    #00 in0_re8 = 1 ; in0_im8 = 8'h00 ; 
+    #00 in1_re8 = 1 ; in1_im8 = 8'h00 ; 
+    #00 in2_re8 = 1 ; in2_im8 = 8'h00 ; 
+    #00 in3_re8 = 1 ; in3_im8 = 8'h00 ;
+    #00 in4_re8 = 1 ; in4_im8 = 8'h00 ; 
+    #00 in5_re8 = 1 ; in5_im8 = 8'h00 ; 
+    #00 in6_re8 = 1 ; in6_im8 = 8'h00 ; 
+    #00 in7_re8 = 1 ; in7_im8 = 8'h00 ; 
+    #00 in8_re8 = 2 ;  in8_im8 = 8'h00 ; 
+    #00 in9_re8 = 2 ;  in9_im8 = 8'h00 ; 
+    #00 in10_re8 = 2 ; in10_im8 = 8'h00 ; 
+    #00 in11_re8 = 2 ; in11_im8 = 8'h00 ;
+    #00 in12_re8 = 2 ; in12_im8 = 8'h00 ; 
+    #00 in13_re8 = 2 ; in13_im8 = 8'h00 ; 
+    #00 in14_re8 = 2 ; in14_im8 = 8'h00 ; 
+    #00 in15_re8 = 2 ; in15_im8 = 8'h00 ;
+    #00 in16_re8 = 3 ; in16_im8 = 8'h00 ; 
+    #00 in17_re8 = 3 ; in17_im8 = 8'h00 ; 
+    #00 in18_re8 = 3 ; in18_im8 = 8'h00 ; 
+    #00 in19_re8 = 3 ; in19_im8 = 8'h00 ;
+    #00 in20_re8 = 3 ; in20_im8 = 8'h00 ; 
+    #00 in21_re8 = 3 ; in21_im8 = 8'h00 ; 
+    #00 in22_re8 = 3 ; in22_im8 = 8'h00 ; 
+    #00 in23_re8 = 3 ; in23_im8 = 8'h00 ;
+    #00 in24_re8 = 4 ; in24_im8 = 8'h00 ; 
+    #00 in25_re8 = 4 ; in25_im8 = 8'h00 ; 
+    #00 in26_re8 = 4 ; in26_im8 = 8'h00 ; 
+    #00 in27_re8 = 4 ; in27_im8 = 8'h00 ;
+    #00 in28_re8 = 4 ; in28_im8 = 8'h00 ; 
+    #00 in29_re8 = 4 ; in29_im8 = 8'h00 ; 
+    #00 in30_re8 = 4 ; in30_im8 = 8'h00 ; 
+    #00 in31_re8 = 4 ; in31_im8 = 8'h00 ;
+    #10 rst = 0 ; /// 20
+        
+    #30 in0_re8 = 1 ; in0_im8 = 8'h00 ; /// 20
+    #00 in1_re8 = 2 ; in1_im8 = 8'h00 ; 
+    #00 in2_re8 = 3 ; in2_im8 = 8'h00 ; 
+    #00 in3_re8 = 4 ; in3_im8 = 8'h00 ;
+    #00 in4_re8 = 5 ; in4_im8 = 8'h00 ; 
+    #00 in5_re8 = 6 ; in5_im8 = 8'h00 ; 
+    #00 in6_re8 = 7 ; in6_im8 = 8'h00 ; 
+    #00 in7_re8 = 8 ; in7_im8 = 8'h00 ;
+    #00 in8_re8 = 9 ;  in8_im8 = 8'h00 ; 
+    #00 in9_re8 = 10 ;  in9_im8 = 8'h00 ; 
+    #00 in10_re8 = 11 ; in10_im8 = 8'h00 ; 
+    #00 in11_re8 = 12 ; in11_im8 = 8'h00 ;
+    #00 in12_re8 = 13 ; in12_im8 = 8'h00 ; 
+    #00 in13_re8 = 14 ; in13_im8 = 8'h00 ; 
+    #00 in14_re8 = 15 ; in14_im8 = 8'h00 ; 
+    #00 in15_re8 = 16 ; in15_im8 = 8'h00 ;
+    #00 in16_re8 = 17 ; in16_im8 = 8'h00 ; 
+    #00 in17_re8 = 18 ; in17_im8 = 8'h00 ; 
+    #00 in18_re8 = 19 ; in18_im8 = 8'h00 ; 
+    #00 in19_re8 = 20 ; in19_im8 = 8'h00 ;
+    #00 in20_re8 = 21 ; in20_im8 = 8'h00 ; 
+    #00 in21_re8 = 22 ; in21_im8 = 8'h00 ; 
+    #00 in22_re8 = 23 ; in22_im8 = 8'h00 ; 
+    #00 in23_re8 = 24 ; in23_im8 = 8'h00 ;
+    #00 in24_re8 = 25 ; in24_im8 = 8'h00 ; 
+    #00 in25_re8 = 26 ; in25_im8 = 8'h00 ; 
+    #00 in26_re8 = 27 ; in26_im8 = 8'h00 ; 
+    #00 in27_re8 = 28 ; in27_im8 = 8'h00 ;
+    #00 in28_re8 = 29 ; in28_im8 = 8'h00 ; 
+    #00 in29_re8 = 30 ; in29_im8 = 8'h00 ; 
+    #00 in30_re8 = 31 ; in30_im8 = 8'h00 ; 
+    #00 in31_re8 = 32 ; in31_im8 = 8'h00 ;
+   
+    #40 in0_re8 = 8'h7_f ; in0_im8 = 8'h00 ;
+    #00 in1_re8 = 8'h8_1 ; in1_im8 = 8'h00 ; 
+    #00 in2_re8 = 8'h7_f ; in2_im8 = 8'h00 ; 
+    #00 in3_re8 = 8'h8_1 ; in3_im8 = 8'h00 ;
+    #00 in4_re8 = 8'h7_f ; in4_im8 = 8'h00 ; 
+    #00 in5_re8 = 8'h8_1 ; in5_im8 = 8'h00 ; 
+    #00 in6_re8 = 8'h7_f ; in6_im8 = 8'h00 ; 
+    #00 in7_re8 = 8'h8_1 ; in7_im8 = 8'h00 ;
+    #00 in8_re8 = 8'h7_f ;  in8_im8 = 8'h00 ; 
+    #00 in9_re8 = 8'h8_1 ;  in9_im8 = 8'h00 ; 
+    #00 in10_re8 = 8'h7_f ; in10_im8 = 8'h00 ; 
+    #00 in11_re8 = 8'h8_1 ; in11_im8 = 8'h00 ;
+    #00 in12_re8 = 8'h7_f ; in12_im8 = 8'h00 ; 
+    #00 in13_re8 = 8'h8_1 ; in13_im8 = 8'h00 ; 
+    #00 in14_re8 = 8'h7_f ; in14_im8 = 8'h00 ; 
+    #00 in15_re8 = 8'h8_1 ; in15_im8 = 8'h00 ;
+    #00 in16_re8 = 8'h7_f ; in16_im8 = 8'h00 ; 
+    #00 in17_re8 = 8'h8_1 ; in17_im8 = 8'h00 ; 
+    #00 in18_re8 = 8'h7_f ; in18_im8 = 8'h00 ; 
+    #00 in19_re8 = 8'h8_1 ; in19_im8 = 8'h00 ;
+    #00 in20_re8 = 8'h7_f ; in20_im8 = 8'h00 ; 
+    #00 in21_re8 = 8'h8_1 ; in21_im8 = 8'h00 ; 
+    #00 in22_re8 = 8'h7_f ; in22_im8 = 8'h00 ; 
+    #00 in23_re8 = 8'h8_1 ; in23_im8 = 8'h00 ;
+    #00 in24_re8 = 8'h7_f ; in24_im8 = 8'h00 ; 
+    #00 in25_re8 = 8'h8_1 ; in25_im8 = 8'h00 ; 
+    #00 in26_re8 = 8'h7_f ; in26_im8 = 8'h00 ; 
+    #00 in27_re8 = 8'h8_1 ; in27_im8 = 8'h00 ;
+    #00 in28_re8 = 8'h7_f ; in28_im8 = 8'h00 ; 
+    #00 in29_re8 = 8'h8_1 ; in29_im8 = 8'h00 ; 
+    #00 in30_re8 = 8'h7_f ; in30_im8 = 8'h00 ; 
+    #00 in31_re8 = 8'h8_1 ; in31_im8 = 8'h00 ;
+    
+    #260 $stop;
+end
+
+endmodule
