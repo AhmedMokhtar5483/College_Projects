@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/digital design 2020/project folder 2020/MIPS_processor/se_extender_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="se_extender_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="/se_extender_tb/tb_se_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tb_se_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_se_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/se_extender_tb/tb_se_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tb_se_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_se_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

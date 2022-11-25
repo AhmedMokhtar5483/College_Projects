@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_design.ncd
+OUTFILE=E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_design.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor
+LICENSE=WebPack
+USER_INFO=__0_0_0

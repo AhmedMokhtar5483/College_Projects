@@ -1,0 +1,205 @@
+Added Component: Designator=IC1(QFP50P2200X2200X160-144N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.xilinx.com/support/documentation/data_sheets/ds160.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "XILINX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XC6SLX9-2TQG144C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "217-XC6SLX9-2TQG144C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=217-XC6SLX9-2TQG144C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "7276011P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7276011P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ASW2 Pin=IC1-29
+Added Net: Name=ASW2
+Added Pin To Net: NetName=D_RXD Pin=IC1-34
+Added Net: Name=D_RXD
+Added Pin To Net: NetName=D_TXD Pin=IC1-33
+Added Net: Name=D_TXD
+Added Pin To Net: NetName=GCLK_50A Pin=IC1-14
+Added Net: Name=GCLK_50A
+Added Pin To Net: NetName=GCLK_50B Pin=IC1-23
+Added Net: Name=GCLK_50B
+Added Pin To Net: NetName=GND Pin=IC1-3
+Added Pin To Net: NetName=GND Pin=IC1-13
+Added Pin To Net: NetName=GND Pin=IC1-25
+Added Pin To Net: NetName=GND Pin=IC1-49
+Added Pin To Net: NetName=GND Pin=IC1-54
+Added Pin To Net: NetName=GND Pin=IC1-68
+Added Pin To Net: NetName=GND Pin=IC1-73
+Added Pin To Net: NetName=GND Pin=IC1-77
+Added Pin To Net: NetName=GND Pin=IC1-91
+Added Pin To Net: NetName=GND Pin=IC1-96
+Added Pin To Net: NetName=GND Pin=IC1-108
+Added Pin To Net: NetName=GND Pin=IC1-113
+Added Pin To Net: NetName=GND Pin=IC1-130
+Added Pin To Net: NetName=GND Pin=IC1-136
+Added Net: Name=GND
+Added Pin To Net: NetName=IOA0 Pin=IC1-40
+Added Net: Name=IOA0
+Added Pin To Net: NetName=IOA1 Pin=IC1-41
+Added Net: Name=IOA1
+Added Pin To Net: NetName=IOA2 Pin=IC1-43
+Added Net: Name=IOA2
+Added Pin To Net: NetName=IOA3 Pin=IC1-44
+Added Net: Name=IOA3
+Added Pin To Net: NetName=IOA4 Pin=IC1-45
+Added Net: Name=IOA4
+Added Pin To Net: NetName=IOA5 Pin=IC1-46
+Added Net: Name=IOA5
+Added Pin To Net: NetName=IOA6 Pin=IC1-47
+Added Net: Name=IOA6
+Added Pin To Net: NetName=IOA7 Pin=IC1-48
+Added Net: Name=IOA7
+Added Pin To Net: NetName=IOA8 Pin=IC1-50
+Added Net: Name=IOA8
+Added Pin To Net: NetName=IOA9 Pin=IC1-51
+Added Net: Name=IOA9
+Added Pin To Net: NetName=IOA10 Pin=IC1-55
+Added Net: Name=IOA10
+Added Pin To Net: NetName=IOA11 Pin=IC1-56
+Added Net: Name=IOA11
+Added Pin To Net: NetName=IOA12 Pin=IC1-57
+Added Net: Name=IOA12
+Added Pin To Net: NetName=IOA13 Pin=IC1-58
+Added Net: Name=IOA13
+Added Pin To Net: NetName=IOA14 Pin=IC1-61
+Added Net: Name=IOA14
+Added Pin To Net: NetName=IOA15 Pin=IC1-62
+Added Net: Name=IOA15
+Added Pin To Net: NetName=IOA16 Pin=IC1-66
+Added Net: Name=IOA16
+Added Pin To Net: NetName=IOA17 Pin=IC1-67
+Added Net: Name=IOA17
+Added Pin To Net: NetName=IOA18 Pin=IC1-12
+Added Net: Name=IOA18
+Added Pin To Net: NetName=IOA19 Pin=IC1-11
+Added Net: Name=IOA19
+Added Pin To Net: NetName=IOA20 Pin=IC1-10
+Added Net: Name=IOA20
+Added Pin To Net: NetName=IOA21 Pin=IC1-9
+Added Net: Name=IOA21
+Added Pin To Net: NetName=IOA22 Pin=IC1-8
+Added Net: Name=IOA22
+Added Pin To Net: NetName=IOA23 Pin=IC1-7
+Added Net: Name=IOA23
+Added Pin To Net: NetName=IOA24 Pin=IC1-6
+Added Net: Name=IOA24
+Added Pin To Net: NetName=IOA25 Pin=IC1-5
+Added Net: Name=IOA25
+Added Pin To Net: NetName=IOA26 Pin=IC1-2
+Added Net: Name=IOA26
+Added Pin To Net: NetName=IOA27 Pin=IC1-1
+Added Net: Name=IOA27
+Added Pin To Net: NetName=IOB0 Pin=IC1-140
+Added Net: Name=IOB0
+Added Pin To Net: NetName=IOB1 Pin=IC1-139
+Added Net: Name=IOB1
+Added Pin To Net: NetName=IOB2 Pin=IC1-138
+Added Net: Name=IOB2
+Added Pin To Net: NetName=IOB3 Pin=IC1-137
+Added Net: Name=IOB3
+Added Pin To Net: NetName=IOB4 Pin=IC1-134
+Added Net: Name=IOB4
+Added Pin To Net: NetName=IOB5 Pin=IC1-133
+Added Net: Name=IOB5
+Added Pin To Net: NetName=IOB6 Pin=IC1-132
+Added Net: Name=IOB6
+Added Pin To Net: NetName=IOB7 Pin=IC1-131
+Added Net: Name=IOB7
+Added Pin To Net: NetName=IOB8 Pin=IC1-127
+Added Net: Name=IOB8
+Added Pin To Net: NetName=IOB9 Pin=IC1-126
+Added Net: Name=IOB9
+Added Pin To Net: NetName=IOB10 Pin=IC1-124
+Added Net: Name=IOB10
+Added Pin To Net: NetName=IOB11 Pin=IC1-123
+Added Net: Name=IOB11
+Added Pin To Net: NetName=IOB12 Pin=IC1-95
+Added Net: Name=IOB12
+Added Pin To Net: NetName=IOB13 Pin=IC1-94
+Added Net: Name=IOB13
+Added Pin To Net: NetName=IOB14 Pin=IC1-119
+Added Net: Name=IOB14
+Added Pin To Net: NetName=IOB15 Pin=IC1-118
+Added Net: Name=IOB15
+Added Pin To Net: NetName=IOB16 Pin=IC1-117
+Added Net: Name=IOB16
+Added Pin To Net: NetName=IOB17 Pin=IC1-116
+Added Net: Name=IOB17
+Added Pin To Net: NetName=IOB18 Pin=IC1-115
+Added Net: Name=IOB18
+Added Pin To Net: NetName=IOB19 Pin=IC1-114
+Added Net: Name=IOB19
+Added Pin To Net: NetName=IOB20 Pin=IC1-112
+Added Net: Name=IOB20
+Added Pin To Net: NetName=IOB21 Pin=IC1-111
+Added Net: Name=IOB21
+Added Pin To Net: NetName=IOB22 Pin=IC1-102
+Added Net: Name=IOB22
+Added Pin To Net: NetName=IOB23 Pin=IC1-101
+Added Net: Name=IOB23
+Added Pin To Net: NetName=IOB24 Pin=IC1-100
+Added Net: Name=IOB24
+Added Pin To Net: NetName=IOB25 Pin=IC1-99
+Added Net: Name=IOB25
+Added Pin To Net: NetName=IOB26 Pin=IC1-98
+Added Net: Name=IOB26
+Added Pin To Net: NetName=IOB27 Pin=IC1-97
+Added Net: Name=IOB27
+Added Pin To Net: NetName=S_SELCTn Pin=IC1-38
+Added Net: Name=S_SELCTn
+Added Pin To Net: NetName=S CLOCK Pin=IC1-70
+Added Net: Name=S CLOCK
+Added Pin To Net: NetName=S DATA IN Pin=IC1-64
+Added Net: Name=S DATA IN
+Added Pin To Net: NetName=S DATA OUT Pin=IC1-65
+Added Net: Name=S DATA OUT
+Added Pin To Net: NetName=ULED2 Pin=IC1-32
+Added Net: Name=ULED2
+Added Pin To Net: NetName=V12 Pin=IC1-19
+Added Pin To Net: NetName=V12 Pin=IC1-28
+Added Pin To Net: NetName=V12 Pin=IC1-52
+Added Pin To Net: NetName=V12 Pin=IC1-89
+Added Pin To Net: NetName=V12 Pin=IC1-128
+Added Net: Name=V12
+Added Pin To Net: NetName=V33A Pin=IC1-4
+Added Pin To Net: NetName=V33A Pin=IC1-18
+Added Pin To Net: NetName=V33A Pin=IC1-20
+Added Pin To Net: NetName=V33A Pin=IC1-31
+Added Pin To Net: NetName=V33A Pin=IC1-36
+Added Pin To Net: NetName=V33A Pin=IC1-42
+Added Pin To Net: NetName=V33A Pin=IC1-53
+Added Pin To Net: NetName=V33A Pin=IC1-63
+Added Pin To Net: NetName=V33A Pin=IC1-69
+Added Pin To Net: NetName=V33A Pin=IC1-90
+Added Pin To Net: NetName=V33A Pin=IC1-129
+Added Net: Name=V33A
+Added Pin To Net: NetName=VIO(B) Pin=IC1-76
+Added Pin To Net: NetName=VIO(B) Pin=IC1-86
+Added Pin To Net: NetName=VIO(B) Pin=IC1-103
+Added Pin To Net: NetName=VIO(B) Pin=IC1-122
+Added Pin To Net: NetName=VIO(B) Pin=IC1-125
+Added Pin To Net: NetName=VIO(B) Pin=IC1-135
+Added Net: Name=VIO(B)
+Added Pin To Net: NetName=VREFB Pin=IC1-104
+Added Pin To Net: NetName=VREFB Pin=IC1-120
+Added Pin To Net: NetName=VREFB Pin=IC1-143
+Added Net: Name=VREFB
+Added Pin To Net: NetName=X_INIT Pin=IC1-39
+Added Net: Name=X_INIT
+Added Pin To Net: NetName=X DONE Pin=IC1-71
+Added Net: Name=X DONE
+Added Pin To Net: NetName=X HSWAPEN Pin=IC1-144
+Added Net: Name=X HSWAPEN
+Added Pin To Net: NetName=X M1 Pin=IC1-60
+Added Net: Name=X M1
+Added Pin To Net: NetName=X PROG Pin=IC1-37
+Added Net: Name=X PROG
+Added Pin To Net: NetName=X TCK Pin=IC1-109
+Added Net: Name=X TCK
+Added Pin To Net: NetName=X TDI Pin=IC1-110
+Added Net: Name=X TDI
+Added Pin To Net: NetName=X TDO Pin=IC1-106
+Added Net: Name=X TDO
+Added Pin To Net: NetName=X TMS Pin=IC1-107
+Added Net: Name=X TMS
+Added Class: Name=Sheet1

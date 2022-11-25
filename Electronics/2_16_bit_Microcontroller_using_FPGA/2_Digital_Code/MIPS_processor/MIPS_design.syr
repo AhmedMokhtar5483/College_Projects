@@ -1,0 +1,616 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: MIPS_design.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MIPS_design.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MIPS_design"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : MIPS_design
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\sign_extender.vhd" into library work
+Parsing entity <sign_extender>.
+Parsing architecture <Behavioral> of entity <sign_extender>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\reg_file.vhd" into library work
+Parsing entity <reg_file>.
+Parsing architecture <Behavioral> of entity <reg_file>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\register.vhd" into library work
+Parsing entity <general_register>.
+Parsing architecture <Behavioral> of entity <general_register>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MUX.vhd" into library work
+Parsing entity <MUX>.
+Parsing architecture <Behavioral> of entity <mux>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_control_unit.vhd" into library work
+Parsing entity <MIPS_control_unit>.
+Parsing architecture <Behavioral> of entity <mips_control_unit>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\jump_block.vhd" into library work
+Parsing entity <jump_block>.
+Parsing architecture <Behavioral> of entity <jump_block>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\IO_register.vhd" into library work
+Parsing entity <IO_register>.
+Parsing architecture <Behavioral> of entity <io_register>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\instruction_memory.vhd" into library work
+Parsing entity <instruction_memory>.
+Parsing architecture <Behavioral> of entity <instruction_memory>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\data_memory.vhd" into library work
+Parsing entity <data_memory>.
+Parsing architecture <Behavioral> of entity <data_memory>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\BRANCH_BLOCK.vhd" into library work
+Parsing entity <BRANCH_BLOCK>.
+Parsing architecture <Behavioral> of entity <branch_block>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\ALU_controller.vhd" into library work
+Parsing entity <ALU_controller>.
+Parsing architecture <Behavioral> of entity <alu_controller>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\ALU_MIPS_PRO\ALU_MIPS_pro.vhd" into library work
+Parsing entity <ALU_T>.
+Parsing architecture <Behavioral> of entity <alu_t>.
+Parsing VHDL file "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_design.vhd" into library work
+Parsing entity <MIPS_design>.
+Parsing architecture <Behavioral> of entity <mips_design>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MIPS_design> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MUX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <sign_extender> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <general_register> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <IO_register> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <instruction_memory> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MIPS_control_unit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <reg_file> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ALU_controller> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_T> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <data_memory> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <BRANCH_BLOCK> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <jump_block> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MIPS_design>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_design.vhd".
+INFO:Xst:3210 - "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_design.vhd" line 272: Output port <halt> of the instance <U_CU> is unconnected or connected to loadless signal.
+    Found 16-bit adder for signal <PC_increment> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <MIPS_design> synthesized.
+
+Synthesizing Unit <MUX_1>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MUX.vhd".
+        n = 3
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_1> synthesized.
+
+Synthesizing Unit <MUX_2>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MUX.vhd".
+        n = 16
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_2> synthesized.
+
+Synthesizing Unit <sign_extender>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\sign_extender.vhd".
+    Summary:
+	no macro.
+Unit <sign_extender> synthesized.
+
+Synthesizing Unit <general_register>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\register.vhd".
+    Found 16-bit register for signal <output_sig>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <general_register> synthesized.
+
+Synthesizing Unit <IO_register>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\IO_register.vhd".
+    Found 16-bit register for signal <output>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <IO_register> synthesized.
+
+Synthesizing Unit <instruction_memory>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\instruction_memory.vhd".
+    Found 32768x16-bit Read Only RAM for signal <instruction>
+    Summary:
+	inferred   1 RAM(s).
+Unit <instruction_memory> synthesized.
+
+Synthesizing Unit <MIPS_control_unit>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\MIPS_control_unit.vhd".
+    Summary:
+	inferred  13 Multiplexer(s).
+Unit <MIPS_control_unit> synthesized.
+
+Synthesizing Unit <reg_file>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\reg_file.vhd".
+        w = 3
+        B = 16
+    Found 16-bit register for signal <register_file<1>>.
+    Found 16-bit register for signal <register_file<2>>.
+    Found 16-bit register for signal <register_file<3>>.
+    Found 16-bit register for signal <register_file<4>>.
+    Found 16-bit register for signal <register_file<5>>.
+    Found 16-bit register for signal <register_file<6>>.
+    Found 16-bit register for signal <register_file<7>>.
+    Found 16-bit register for signal <register_file<0>>.
+    Found 16-bit 8-to-1 multiplexer for signal <readData1> created at line 43.
+    Found 16-bit 8-to-1 multiplexer for signal <readData2> created at line 44.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <reg_file> synthesized.
+
+Synthesizing Unit <ALU_controller>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\ALU_controller.vhd".
+    Summary:
+	no macro.
+Unit <ALU_controller> synthesized.
+
+Synthesizing Unit <ALU_T>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\ALU_MIPS_PRO\ALU_MIPS_pro.vhd".
+    Found 16-bit adder for signal <ALU_A[15]_ALU_B[15]_add_0_OUT> created at line 25.
+    Found 16-bit subtractor for signal <GND_14_o_GND_14_o_sub_2_OUT<15:0>> created at line 27.
+    Found 16-bit 12-to-1 multiplexer for signal <result> created at line 23.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 Multiplexer(s).
+Unit <ALU_T> synthesized.
+
+Synthesizing Unit <data_memory>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\data_memory.vhd".
+        n = 16
+    Found 16-bit register for signal <data_memory<1>>.
+    Found 16-bit register for signal <data_memory<2>>.
+    Found 16-bit register for signal <data_memory<3>>.
+    Found 16-bit register for signal <data_memory<4>>.
+    Found 16-bit register for signal <data_memory<5>>.
+    Found 16-bit register for signal <data_memory<6>>.
+    Found 16-bit register for signal <data_memory<7>>.
+    Found 16-bit register for signal <data_memory<8>>.
+    Found 16-bit register for signal <data_memory<9>>.
+    Found 16-bit register for signal <data_memory<10>>.
+    Found 16-bit register for signal <data_memory<11>>.
+    Found 16-bit register for signal <data_memory<12>>.
+    Found 16-bit register for signal <data_memory<13>>.
+    Found 16-bit register for signal <data_memory<14>>.
+    Found 16-bit register for signal <data_memory<15>>.
+    Found 16-bit register for signal <data_memory<0>>.
+INFO:Xst:3019 - HDL ADVISOR - 256 flip-flops were inferred for signal <data_memory>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Found 16-bit 16-to-1 multiplexer for signal <address[15]_data_memory[15][15]_wide_mux_51_OUT> created at line 51.
+    Summary:
+	inferred 256 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <data_memory> synthesized.
+
+Synthesizing Unit <BRANCH_BLOCK>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\BRANCH_BLOCK.vhd".
+    Found 16-bit adder for signal <PC_branch> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <BRANCH_BLOCK> synthesized.
+
+Synthesizing Unit <jump_block>.
+    Related source file is "E:\MIPS_final_project_edited\MIPS_final_project\MIPS_processor\jump_block.vhd".
+    Summary:
+	no macro.
+Unit <jump_block> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32768x16-bit single-port Read Only RAM                : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 16-bit addsub                                         : 1
+# Registers                                            : 27
+ 16-bit register                                       : 27
+# Multiplexers                                         : 36
+ 1-bit 2-to-1 multiplexer                              : 12
+ 16-bit 16-to-1 multiplexer                            : 1
+ 16-bit 2-to-1 multiplexer                             : 18
+ 16-bit 8-to-1 multiplexer                             : 2
+ 3-bit 2-to-1 multiplexer                              : 3
+# Xors                                                 : 1
+ 16-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <instruction_memory>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_instruction> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32768-word x 16-bit                 |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <memory_address_pc> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <instruction>   |          |
+    -----------------------------------------------------------------------
+Unit <instruction_memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32768x16-bit single-port distributed Read Only RAM    : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 16-bit addsub                                         : 1
+# Registers                                            : 432
+ Flip-Flops                                            : 432
+# Multiplexers                                         : 66
+ 1-bit 2-to-1 multiplexer                              : 12
+ 1-bit 8-to-1 multiplexer                              : 32
+ 16-bit 16-to-1 multiplexer                            : 1
+ 16-bit 2-to-1 multiplexer                             : 18
+ 3-bit 2-to-1 multiplexer                              : 3
+# Xors                                                 : 1
+ 16-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <general_register> ...
+
+Optimizing unit <IO_register> ...
+
+Optimizing unit <MIPS_design> ...
+
+Optimizing unit <reg_file> ...
+
+Optimizing unit <data_memory> ...
+
+Optimizing unit <ALU_T> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MIPS_design, actual ratio is 17.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 432
+ Flip-Flops                                            : 432
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MIPS_design.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1065
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 13
+#      LUT2                        : 22
+#      LUT3                        : 38
+#      LUT4                        : 93
+#      LUT5                        : 128
+#      LUT6                        : 611
+#      MUXCY                       : 43
+#      MUXF7                       : 68
+#      VCC                         : 1
+#      XORCY                       : 46
+# FlipFlops/Latches                : 432
+#      FDC                         : 32
+#      FDCE                        : 400
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 17
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             432  out of  11440     3%  
+ Number of Slice LUTs:                  906  out of   5720    15%  
+    Number used as Logic:               906  out of   5720    15%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1034
+   Number with an unused Flip Flop:     602  out of   1034    58%  
+   Number with an unused LUT:           128  out of   1034    12%  
+   Number of fully used LUT-FF pairs:   304  out of   1034    29%  
+   Number of unique control sets:        20
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    102    33%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 432   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 11.561ns (Maximum Frequency: 86.496MHz)
+   Minimum input arrival time before clock: 9.844ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 11.561ns (frequency: 86.496MHz)
+  Total number of paths / destination ports: 22192810 / 816
+-------------------------------------------------------------------------
+Delay:               11.561ns (Levels of Logic = 10)
+  Source:            U_PC/output_sig_5 (FF)
+  Destination:       U_PC/output_sig_15 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: U_PC/output_sig_5 to U_PC/output_sig_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             34   0.447   1.665  U_PC/output_sig_5 (U_PC/output_sig_5)
+     LUT5:I0->O            1   0.203   0.580  U_IR/Mram_instruction29116_SW0 (N82)
+     LUT6:I5->O            1   0.205   0.580  U_IR/Mram_instruction29116 (U_IR/Mram_instruction29115)
+     LUT6:I5->O           18   0.205   1.278  U_IR/Mram_instruction291113 (instruction_sig<14>)
+     LUT4:I1->O            4   0.205   0.684  U_ALU_controller/alu_signal<3>_SW0 (N6)
+     LUT5:I4->O           18   0.205   1.278  U_ALU_controller/alu_signal<3>_3 (U_ALU_controller/alu_signal<3>2)
+     LUT6:I3->O            5   0.205   0.819  U_ALU/Mmux_result1181 (U_ALU/Mmux_result118)
+     LUT6:I4->O            1   0.203   0.580  U_Mux_branch/mux_control_INV_3_o4_SW2 (N228)
+     LUT6:I5->O           15   0.205   0.981  U_Mux_branch/mux_control_INV_3_o4 (U_Mux_branch/mux_control_INV_3_o4)
+     MUXF7:S->O            1   0.148   0.580  U_Mux_branch/mux_control_INV_3_o5_SW25 (N232)
+     LUT6:I5->O            1   0.205   0.000  U_Mux_PC_Rs/Mmux_mux_out51 (PC_input<13>)
+     FDC:D                     0.102          U_PC/output_sig_13
+    ----------------------------------------
+    Total                     11.561ns (2.538ns logic, 9.023ns route)
+                                       (22.0% logic, 78.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 60243 / 1248
+-------------------------------------------------------------------------
+Offset:              9.844ns (Levels of Logic = 7)
+  Source:            reset (PAD)
+  Destination:       U_PC/output_sig_15 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to U_PC/output_sig_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           453   1.222   2.429  reset_IBUF (reset_IBUF)
+     LUT5:I0->O           26   0.203   1.311  U_CU/Mmux_alusrc11 (alusrc_sig)
+     LUT3:I1->O            3   0.203   0.651  U_Mux_register_file_alu/Mmux_mux_out121 (ALUB_sig<5>)
+     LUT5:I4->O            3   0.205   0.898  U_ALU/Mmux_result11243_SW1 (N72)
+     LUT6:I2->O            1   0.203   0.924  U_ALU/Mmux_result11244 (ALU_RESULT<5>)
+     LUT6:I1->O           15   0.203   1.086  U_Mux_branch/mux_control_INV_3_o3 (U_Mux_branch/mux_control_INV_3_o3)
+     LUT6:I4->O            1   0.203   0.000  U_Mux_PC_Rs/Mmux_mux_out51 (PC_input<13>)
+     FDC:D                     0.102          U_PC/output_sig_13
+    ----------------------------------------
+    Total                      9.844ns (2.544ns logic, 7.300ns route)
+                                       (25.8% logic, 74.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            U_output_port/output_15 (FF)
+  Destination:       output_port<15> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: U_output_port/output_15 to output_port<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.447   0.579  U_output_port/output_15 (U_output_port/output_15)
+     OBUF:I->O                 2.571          output_port_15_OBUF (output_port<15>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |   11.561|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 18.31 secs
+ 
+--> 
+
+Total memory usage is 4886192 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

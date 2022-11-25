@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/digital design 2020/MIPS2/MIPS_processor/CU_tb_isim_beh.exe" -prj "E:/digital design 2020/MIPS2/MIPS_processor/CU_tb_beh.prj" "work.CU_tb" 
